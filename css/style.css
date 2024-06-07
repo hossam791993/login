@@ -1,0 +1,44 @@
+/* variables */
+:root {
+  --main-color: #24353f;
+}
+
+/* general rules */
+body {
+  background-color: var(--main-color);
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav-link {
+  color: #ccc !important;
+}
+.login-card {
+  background-color: var(--main-color);
+  color: white;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  width: 60%;
+}
+h1 {
+  color: #17a2b8;
+  font-size: 40px;
+}
+input {
+  background-color: transparent !important;
+  color: white !important;
+}
+input::placeholder {
+  color: #ccc !important;
+}
+input:focus {
+  outline: rgb(108, 99, 255) solid 1px !important;
+  box-shadow: none !important;
+}
+.sign-up {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.sign-up:hover {
+  text-decoration: underline;
+}
